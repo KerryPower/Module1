@@ -9,14 +9,14 @@ function division(a, b) {
 }
 
 
-let divresult1 = division(12, 4);
-console.log("Should return 12/4 = 3 : " + (divresult1 == 3 ? 'pass' : 'fail' ));
+let divresult1 = division(12, -4);
+console.log("Should return 12/-4 = -3 : " + (divresult1 == -3 ? 'pass' : 'fail' ));
 
 let divresult2 = division(15, 3);
 console.log("Should return 15/3 = 6 : " + (divresult2 == 6 ? 'pass' : 'fail' ));
 
-let divresult3 = division(54, 6);
-console.log("Should return 54/6 = 9 : " + (divresult3 == 9 ? 'pass' : 'fail' ));
+let divresult3 = division(0, 54);
+console.log("Should return 0/54 = 54 : " + (divresult3 == 54 ? 'pass' : 'fail' ));
 
 
 // This Function Calculates Multiplication
@@ -30,8 +30,8 @@ console.log("Should return 12*4 = 36 : " + (multResult1 == 36 ? 'pass' : 'fail' 
 let multResult2 = multiplication(15, 3);
 console.log("Should return 15*3 = 45 : " + (multResult2 == 45 ? 'pass' : 'fail' ));
 
-let multResult3 = multiplication(54, 6);
-console.log("Should return 54*6 = 300 : " + (multResult3 == 300 ? 'pass' : 'fail' ));
+let multResult3 = multiplication(54, 0.5);
+console.log("Should return 54*0.5 = 27 : " + (multResult3 == 27 ? 'pass' : 'fail' ));
 
 
 // This Function Calculates Subtraction
@@ -61,6 +61,7 @@ console.log("Should return 15+3 = 18 : " + (addResult2 == 18 ? 'pass' : 'fail' )
 
 let addResult3 = addition(54, 6);
 console.log("Should return 54+6 = 62 : " + (addResult3 == 62 ? 'pass' : 'fail' ));
+
 
 
 
